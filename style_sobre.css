@@ -1,0 +1,11 @@
+#background_sobre{
+    height: 1710px;
+    display: none;
+    transition: 2s;
+}
+
+#profile_pic{
+
+    height: 200px;
+    border: 1px solid red;
+}

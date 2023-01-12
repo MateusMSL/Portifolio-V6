@@ -1,0 +1,336 @@
+.box{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#background_projetos{
+    height: auto;
+    transition: 2s;
+}
+
+
+#Titulo_Projetos{
+
+    font-size: 60px;
+    text-align: center;
+    color: #00467f;
+    font-family: Font_01;
+    margin-bottom: 40px;
+}
+
+
+.espaco_projeto{
+    height: auto;
+}
+
+
+.project_image{
+
+
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid #0a365a;
+}
+
+.project_title{
+
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    
+    font-size: 30px;
+    color: #00467f;
+    font-family: Font_01;
+}
+
+.project_about{
+
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #00467f;
+    font-family: Font_01;
+}
+
+#return_icon{
+
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 37%;
+    color: #0a467f;
+}
+
+#return_icon_section{
+
+    margin: 0 auto;
+}
+
+#img_01{
+
+    background-image: url(img/dotbook.gif);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: bottom;
+    background-color: #515151;
+}
+
+#img_02{
+
+    background-image: url(img/GGHARDWARE.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000;
+    background-position: center;
+    margin-top: 10px;
+
+}
+
+#img_03{
+
+    background-image: url(img/MAONARODA.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #333333;
+    background-position:left;
+    margin-top: 25px;
+}
+
+#img_04{
+
+    background-image: url(img/IanesTech.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #333333;
+    background-position:left;
+    margin-top: 20px;
+}
+
+.project_hover{
+    -webkit-box-shadow: inset 10px -19px 280px 200px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px -19px 280px 200px rgba(0,0,0,0.75);
+    box-shadow: inset 10px -19px 280px 200px rgba(0,0,0,0.75);
+    transition: 1s;
+}
+
+.project_hover:hover{
+    transition: 2s;
+    cursor: pointer;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+#aviso_projetos{
+    z-index: 30;
+    position: fixed;
+    margin-left: 30px;
+    margin-top: 30px;
+    transform: translateY(-119%);
+}
+
+@media (min-width: 320px) and (max-width: 321px) {
+
+    .project_hover{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        transition: 1s;
+    }
+
+    #aviso_projetos{
+        position: absolute;
+        margin-left: 0px;
+        height: 110px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 1190px;
+        transform: translatex(-100%);
+    }
+    
+    
+    #return_icon{
+
+        cursor: pointer;
+        margin-top: 0px;
+        padding-left: 20%;
+        color: #0a467f;
+    }
+
+    .project_image{
+    
+        float: left;
+        margin-top: 21px;
+        margin-left: 55px;
+        height: 190px;
+        border-radius: 100%;
+        border: 3px solid #0a365a;
+    }
+
+    .project_title{
+    
+        float: left;
+        text-align: center;
+        margin-top: 30px;
+        
+        font-size: 30px;
+        color: #00467f;
+        font-family: Font_01;
+    }
+
+    .project_about{
+    
+        float: left;
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 10px;
+        
+        font-size: 20px;
+        color: #00467f;
+        font-family: Font_01;
+    }
+
+    
+    #background_projetos{
+        height: 3250px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+
+    .project_hover{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        transition: 1s;
+    }
+
+    #background_projetos{
+        height: 3150px;
+    }
+    
+    #aviso_projetos{
+        position: absolute;
+        margin-left: 0px;
+        height: 110px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 1190px;
+        transform: translatex(-100%);
+    }
+
+    
+    #return_icon{
+        float: left;
+
+        cursor: pointer;
+        padding-top: 50px;
+        padding-bottom: 90px;
+        color: #0a467f;
+        padding-left: 47%;
+        padding-right: 0%;
+        height: 40px;
+    }
+
+    .project_image{
+    
+        float: left;
+        margin-top: 20px;
+        margin-left: 90px;
+        height: 200px;
+        border-radius: 100%;
+        border: 3px solid #0a365a;
+    }
+
+    .project_title{
+    
+        float: left;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 10px;
+        
+        font-size: 30px;
+        color: #00467f;
+        font-family: Font_01;
+    }
+
+    .project_about{
+    
+        float: left;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 25px;
+        padding-right: 10px;
+        
+        font-size: 20px;
+        color: #00467f;
+        font-family: Font_01;
+    }
+ 
+
+}
+
+@media (min-width: 376px) and (max-width: 428px) {
+
+    .project_hover{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        transition: 1s;
+    }
+
+    
+    #aviso_projetos{
+        position: absolute;
+        margin-left: 0px;
+        height: 110px;
+        padding-left: 10px;
+        margin-top: 1190px;
+        padding-right: 10px;
+        transform: translatex(-100%);
+    }
+
+    #background_projetos{
+        transition: 2s;
+    }
+
+    #return_icon{
+        margin-top: 20px;
+    }
+
+    .project_image{
+        height: 200px;
+    }
+
+    .project_title{
+        font-size: 30px;
+    }
+
+    .project_about{
+    
+        margin-top: 20px;
+        padding-left: 25px;
+        padding-right: 20px;
+        margin-bottom: 10px;
+        
+        font-size: 20px;
+        color: #00467f;
+        font-family: Font_01;
+    }
+
+    hr{
+        display: none;
+    }
+ 
+
+}
