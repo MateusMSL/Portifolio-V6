@@ -8,6 +8,7 @@
 #background_projetos{
     height: auto;
     transition: 2s;
+    display: none;
 }
 
 
